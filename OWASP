@@ -1,2 +1,21 @@
 OWASP Top 10 Overview
 https://www.brighttalk.com/webcast/15995/593538?utm_source=brighttalk-portal&utm_medium=web&utm_content=&utm_term=search-result-10&utm_campaign=webcasts-search-results-feed
+
+Security Risk for 2021 (Awareness Document)
+
+ASVS (Application Security Vulnerability Standard Framework)
+
+Methodology
+8 Categories - Data that was contributed from ORGS
+2 Categories - Data that was from OWASP survey
+
+A01:2021 Broken Access Control
+A02:2021 Cryptographic Failures
+A03:2021 Injection
+A04:2021 Insecure Design
+A05:2021 Security Misconfiguration
+A06:2021 Vulnerable and Outdated Components
+A07:2021 Identification and Authentication Failures
+A08:2021 Software and Data Integrity Failures
+A09:2021 Security Logging and Monitoring Failures
+A10:2021 Server Side Request Forgery
