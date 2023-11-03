@@ -26,7 +26,7 @@
             - Time Management is important
 
 ## Section 1: Attacks, Threats, and Vulnerabilities
-   2. 1.1: Social Engineering
+   1. 1.1: Social Engineering
         - Phishing: Social Engineering with a touch of Spoofing
             - Often delivered by text, email, etc
             - Don't be fooled -> Check the URL
@@ -76,13 +76,13 @@
 
 
 
-    3. 1.2: Attack Types
-    4. 1.3: Application Attacks
-    5. 1.4: Network Attacks
-    6. 1.5: Threat Actors and Vectors
-    7. 1.6: Vulnerabilities
-    8. 1.7: Security Assessments
-    9. 1.8: Penetration Testing
+    2. 1.2: Attack Types
+    3. 1.3: Application Attacks
+    4. 1.4: Network Attacks
+    5. 1.5: Threat Actors and Vectors
+    6. 1.6: Vulnerabilities
+    7. 1.7: Security Assessments
+    8. 1.8: Penetration Testing
 ## Section 2: Architecture and Design
     1. 2.1: Enterprise Security
     2. 2.2: Virtualization and Cloud Computing
