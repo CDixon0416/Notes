@@ -1,3 +1,15 @@
 Percipio Crashcourse Bootcamp: If you are gonna cram for the test this is the method. 
 
 For Messer: Target 2-3 Modules a week (30 min a module roughly)
+
+
+Identifer: Email, username 
+Authenticator: Password, Token, not the tool but the specific item itself
+ACL: Access Control List, permissions
+AAA: Authentication, Authorization, Accounting
+
+"Without auditing you have zero" - No incident response without data or alerts
+Auditing and Logging is normally a technical control
+
+HW: Look into PAM mitigations
+HW: Look into Kerberos
