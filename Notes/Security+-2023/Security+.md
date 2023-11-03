@@ -1,6 +1,5 @@
-Condensed Notes from ProfessorMesser's Video Series on CompTIA's Security+
-
-Sourced from: https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/
+# Condensed Notes from ProfessorMesser's Video Series on CompTIA's Security+
+#### Sourced from: https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/
 
 Section 0: The SY0-601 CompTIA Security+ Exam
     0.1: Introduction
@@ -64,6 +63,18 @@ Section 1: Attacks, Threats, and Vulnerabilities
             -Spear Phising
                 -Targeted phishing with inside information
                 -May include "whaling" or hitting a high level person such as the CEO or CFO
+        
+        Impersonation:
+        Dumpster Diving:
+        Shoulder Surfing:
+        Hoaxes:
+        Watering Hole Attacks:
+        Spam:
+        Influence Campaigns:
+        Other Social Engineering Attacks:
+        Principles of Social Engineering:
+
+
 
     1.2: Attack Types
     1.3: Application Attacks
