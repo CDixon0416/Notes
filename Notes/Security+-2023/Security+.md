@@ -71,21 +71,75 @@
              - Can include attacking the victim by masquerading as someone who outranks them
              - Commonly used to commit identity fraud: i.e. Credit card fraud, Bank Fraud, Loan Fraud, Government benefits
 fraud   
-         - Protection against impersonation
+          - Protection against impersonation
              - Never volunteer information
              - Don't disclose personal details
              - Always verify before revealing info
              - Verification should be encouraged
+        
         - Dumpster Diving:
+           - Important information thrown out with the trash
+           - Prevent attackers from getting useful information by shredding important documents and secure your garbage location
+        
         - Shoulder Surfing:
+           - You have access to important information
+           - Prevent attackers by using privacy filters and keeping your monitor out of potential lines of sight
+        
         - Hoaxes:
+           - A threat that doesn't actually exist
+           - Still often consume lots of resources
+           - Most protection is as simple as ensuring you're spam filter is enabled
+           - When in doubt look online at sites such as hoaxslayer.net and snopes.com to see if this is a common hoax
+        
         - Watering Hole Attacks:
+           - What if your network was really secure? Bring the victim to you.
+           - Attack the metaphorical watering hole where the target is likely to be and try to compromise them via a third party to indirectly attack their network
+              - Determine which website the victim group uses
+              - Infect one of these third-party sites
+              - Infect all visitors and hope your target is one of them
+           - Prevention
+              - Defense in depth
+              - Firewalls and IPS
+              - Anti-virus/malware signature updates
+        
         - Spam:
+           - Unsolicited messages
+           - Various content
+           - Significant technology issue
+              - Security concerns
+              - Resource utilization
+              - Storages costs
+           - Prevention
+              - Spam filter
+                 - allowed list
+                 - SMTP standards checking
+                 - Reverse DNS lookup
+                 - Tarpitting
+                 - Recipient filtering
+        
         - Influence Campaigns:
+           - Sway public opinion on political and social issues
+           - Typically a nation-state actor
+              - Includes targeted advertising
+              - Enabled through social media
+        
         - Other Social Engineering Attacks:
+           - Tailgating
+           - Invoice Scams
+           - Credential Harvesting 
+        
         - Principles of Social Engineering:
-
-
+           - Constantly changing, you never know what they'll use next
+              - May involve multiple people or organization
+              - May be in person or electronic including automation
+           - Principles
+              - Authority
+              - Intimidation
+              - Consensus or Social Proof
+              - Scarcity
+              - Urgency
+              - Familiarity or Liking
+              - Trust
 
     2. 1.2: Attack Types
     3. 1.3: Application Attacks
