@@ -65,6 +65,17 @@
                 - May include "whaling" or hitting a high level person such as the CEO or CFO
         
         - Impersonation:
+          - Attackers pretend to be someone they aren't 
+          - Before the attack the trap is set, there is an actor and a story
+             - Uses some of the details from their reconnaissance
+             - Can include attacking the victim by masquerading as someone who outranks them
+             - Commonly used to commit identity fraud: i.e. Credit card fraud, Bank Fraud, Loan Fraud, Government benefits
+fraud   
+         - Protection against impersonation
+             - Never volunteer information
+             - Don't disclose personal details
+             - Always verify before revealing info
+             - Verification should be encouraged
         - Dumpster Diving:
         - Shoulder Surfing:
         - Hoaxes:
