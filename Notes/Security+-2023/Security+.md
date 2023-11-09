@@ -181,16 +181,32 @@ fraud
             - Malware that self replicates without user intervention
       
       - Ransomware and Crypto-malware
+         - Ransomware
+            - Malware that typically encrypts a device and requires a ransom to get the data back
+            - Evolved from HOAXes into real attacks using crypto-malware
+         - Crypto-Malware
+            - Malware that uses cryptography to be able to encrypt all of your personal information for a ransom
+
       - Trojans and RATs
+
       - Rootkits
+
       - Spyware
+
       - Bots and Botnets
+
       - Logic Bombs
+
       - Password Attacks
+
       - Physical Attacks
+
       - Adversarial Artiifical Intelligence
+
       - Supply Chain Attacks
+
       - Cloud-based vs On-Prem Attacks
+
       - Cryptographic Attacks
           - How do you guarantee that data you've sent is secure?
              - Without the key the attackers look for exploits/vulnerability/bad configuration in cryptography itself
