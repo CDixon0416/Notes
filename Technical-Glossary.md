@@ -1,7 +1,8 @@
 |  Term             | Definition|
 |-------------------|-----------|
 | AAA               | Authentication, Authorization and Accounting|
-| ACL               | Access Control List|    
+| ACL               | Access Control List|
+| Adversarial Artifical Intelligence | Using malicious or invalid data to poison a training set for the AI|
 | ASVS              | Application Security Vulnerability Standard Framework|
 | Authentication    | The process of authenticating your identity|
 | Authenticator     | The item used to validate a given identifier|
