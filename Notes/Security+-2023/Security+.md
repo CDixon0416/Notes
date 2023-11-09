@@ -199,7 +199,10 @@ fraud
          - Multiple bots make up a botnet
          - Controlled via a C&C server which sends out commands
          - Can be used for DDOS, Spam, Network Traffic, and other tasks
+
       - Logic Bombs
+         - A type of attack that occurs when a seperate event is triggered
+         - Commonly left by disgruntled employees
 
       - Password Attacks
 
