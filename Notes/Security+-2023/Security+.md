@@ -2,7 +2,7 @@
 #### Sourced from: https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/
 
 ## Section 0: The SY0-601 CompTIA Security+ Exam
-   1. 0.1: Introduction
+   1. "0.1: Introduction"
         - Security+ builds a great foundation
         - Professional prerequisite
         - Certifications that aren't vendor-specific
@@ -26,7 +26,7 @@
             - Time Management is important
 
 ## Section 1: Attacks, Threats, and Vulnerabilities
-   1. 1.1: Social Engineering
+   1. "1.1: Social Engineering"
         - Phishing: Social Engineering with a touch of Spoofing
             - Often delivered by text, email, etc
             - Don't be fooled -> Check the URL
@@ -140,26 +140,26 @@ fraud
               - Urgency
               - Familiarity or Liking
               - Trust
-
-    2. 1.2: Attack Types
-      - An Overview of Malware
-         - Malware
-            - Malicious Software
-            - Gather information
-            - Participate in a group (think botnet)
-            - Show you advertising (adware)
-            - Viruses and Worms (such as ransomware)
-         - How you get malware
-            - Possible scenario:
-               - A worm takes advantage of a vulnerability
-               - That worm then installs malware that includes a Rootkit
-               - That root kit may install a bot, and now your device is part of a botnet
-         - Your computer must run a program
-            - Don't click links in email from untrusted sources
-            - Web page pop-up
-            - Drive-by download
-            - Worm
-            - Keep your OS and Application patched
+   
+   2. "1.2: Attack Types"
+        - An Overview of Malware
+        - Malware
+           - Malicious Software
+           - Gather information
+           - Participate in a group (think botnet)
+           - Show you advertising (adware)
+           - Viruses and Worms (such as ransomware)
+        - How you get malware
+           - Possible scenario:
+              - A worm takes advantage of a vulnerability
+              - That worm then installs malware that includes a Rootkit
+              - That root kit may install a bot, and now your device is part of a botnet
+        - Your computer must run a program
+           - Don't click links in email from untrusted sources
+           - Web page pop-up
+           - Drive-by download
+           - Worm
+           - Keep your OS and Application patched
             
       - Viruses and Worms
          - Viruses
@@ -199,21 +199,22 @@ fraud
              - Hashes are supposed to unique for every unique plaintext
           - Downgrade Attack
              - A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5
-    3. 1.3: Application Attacks
-    4. 1.4: Network Attacks
-    5. 1.5: Threat Actors and Vectors
-    6. 1.6: Vulnerabilities
-    7. 1.7: Security Assessments
-    8. 1.8: Penetration Testing
+             
+    3. "1.3: Application Attacks"
+    4. "1.4: Network Attacks"
+    5. "1.5: Threat Actors and Vectors"
+    6. "1.6: Vulnerabilities"
+    7. "1.7: Security Assessments"
+    8. "1.8: Penetration Testing"
 ## Section 2: Architecture and Design
-    1. 2.1: Enterprise Security
-    2. 2.2: Virtualization and Cloud Computing
-    3. 2.3: Secure Application Development
-    4. 2.4: Authentication and Authorization
-    5. 2.5: Resilience
-    6. 2.6: Embedded Systems
-    7. 2.7: Physical Security Controls
-    8. 2.8: Cryptographic Concepts
+    1. "2.1: Enterprise Security"
+    2. "2.2: Virtualization and Cloud Computing"
+    3. "2.3: Secure Application Development"
+    4. "2.4: Authentication and Authorization"
+    5. "2.5: Resilience"
+    6. "2.6: Embedded Systems"
+    7. "2.7: Physical Security Controls"
+    8. "2.8: Cryptographic Concepts"
 ## Section 3: Implementation
     1. 3.1: Secure Protocols
     2. 3.2: Host and Application Security
