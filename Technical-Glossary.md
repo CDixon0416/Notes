@@ -9,6 +9,7 @@
 | Availability      | Ensure that information is available to users and limit downtime|
 | Confidentiality   | Ensure that information is accessible only to those authorized to have access|
 | CompTIA           | Computing Technology Industry Association|
+| Crypto-Malware    | A form of Ransomware that uses cryptography to encrypt personal data and charging a ransom to decrypt it|
 | Downgrade Attack  | A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5|
 | Hash Collision    | When two unique plaintexts result in the same ciphertexts|
 | Identifier        | A unique way of identifying a user such as email or username|
@@ -23,6 +24,7 @@
 | PAM               | Privileged Access Management|
 | Pharming          | Harvesting information from a large group via an attack|
 | Phising           | Collecting access credentials via social engineering|
+| Ransomware        | A type of malware that takes your data and holds it for ransom|
 | Remediate         | The act of mitigating a vulnerability or a threat|
 | Risk              | Likelihood of a threat exploiting a vulnerability|
 | SAML              | Security Assertion Markup Language|
@@ -32,7 +34,9 @@
 | Tailgating        | Following behind an authorized person or using social engineering to follow a authorized person through the building|
 | Threat            | Anything that effects the C-I-A triad of a system|
 | Typosquatting     | Sitting on a slightly modified URL to trick unsuspecting users such as goo(o)gle.com|
+| Virus             | Malware that can reproduce itself|
 | Vishing           | Voice Phising|
+| Worms             | Malware that self-replicates|
 
 To do:
 Kerberos
