@@ -143,7 +143,44 @@ fraud
 
     2. 1.2: Attack Types
       - An Overview of Malware
+         - Malware
+            - Malicious Software
+            - Gather information
+            - Participate in a group (think botnet)
+            - Show you advertising (adware)
+            - Viruses and Worms (such as ransomware)
+         - How you get malware
+            - Possible scenario:
+               - A worm takes advantage of a vulnerability
+               - That worm then installs malware that includes a Rootkit
+               - That root kit may install a bot, and now your device is part of a botnet
+         - Your computer must run a program
+            - Don't click links in email from untrusted sources
+            - Web page pop-up
+            - Drive-by download
+            - Worm
+            - Keep your OS and Application patched
+            
       - Viruses and Worms
+         - Viruses
+            - Malware that can reproduce itself
+            - Reproduces through file systems or the network
+            - May or may not cause problems (adware vs ransomware)
+            - Prevent/Cure with Anti-virus signatures staying up to date
+         - Types of Viruses
+            - Program Viruses
+               - Part of the application
+            - Boot Sector Viruses
+               - Part of the bootloader
+            - Script Viruses
+               - OS and Browser based
+            - Macro Viruses
+               - Application based such as MS Office
+            - Fileless Viruses
+               - Stealth attack that operates entirely in memory
+         - Worms
+            - Malware that self replicates without user intervention
+      
       - Ransomware and Crypto-malware
       - Trojans and RATs
       - Rootkits
@@ -155,7 +192,7 @@ fraud
       - Supply Chain Attacks
       - Cloud-based vs On-Prem Attacks
       - Cryptographic Attacks
-          - How do you guarentee that data you've sent is secure?
+          - How do you guarantee that data you've sent is secure?
              - Without the key the attackers look for exploits/vulnerability/bad configuration in cryptography itself
           - Hash Collision
              - When two types of plaintexts generate the same hash values
