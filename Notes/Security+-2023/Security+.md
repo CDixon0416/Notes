@@ -190,7 +190,9 @@ fraud
       - Trojans and RATs
 
       - Rootkits
-
+         - Can be present in any OS
+         - Normally modifies the kernel of the OS not the filesystem of the OS
+           
       - Spyware
 
       - Bots and Botnets
