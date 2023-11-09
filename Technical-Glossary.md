@@ -16,6 +16,7 @@
 | Incident          | An adverse event, threat becomes reality|
 | Integrity         | Ensure that information is accurate and complete|
 | Least Privilege   | Ensure everyone has the minimum required privileges to do their job|
+| Logic Bomb        | A type of attack that occurs when a separate event is triggered|
 | Malware           | Malicious Software|
 | Mitigate          | Decrease odds of an exploit|
 | OAuth             | Open Authentication, standard for authorization|
