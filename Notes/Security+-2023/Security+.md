@@ -187,6 +187,7 @@ fraud
       - Bots and Botnets
       - Logic Bombs
       - Password Attacks
+      - Physical Attacks
       - Adversarial Artiifical Intelligence
       - Supply Chain Attacks
       - Cloud-based vs On-Prem Attacks
