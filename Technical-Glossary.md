@@ -29,6 +29,7 @@
 | Ransomware        | A type of malware that takes your data and holds it for ransom|
 | Remediate         | The act of mitigating a vulnerability or a threat|
 | Risk              | Likelihood of a threat exploiting a vulnerability|
+| Root Kit          | Malware that provides persistent privileged access|
 | SAML              | Security Assertion Markup Language|
 | Smishing          | SMS Phising|
 | Spear-phishing    | Targeted phishing with insider information; includes whaling where you target high level positions such as the CEO or CFO|
