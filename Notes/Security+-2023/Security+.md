@@ -142,6 +142,26 @@ fraud
               - Trust
 
     2. 1.2: Attack Types
+      - An Overview of Malware
+      - Viruses and Worms
+      - Ransomware and Crypto-malware
+      - Trojans and RATs
+      - Rootkits
+      - Spyware
+      - Bots and Botnets
+      - Logic Bombs
+      - Password Attacks
+      - Adversarial Artiifical Intelligence
+      - Supply Chain Attacks
+      - Cloud-based vs On-Prem Attacks
+      - Cryptographic Attacks
+          - How do you guarentee that data you've sent is secure?
+             - Without the key the attackers look for exploits/vulnerability/bad configuration in cryptography itself
+          - Hash Collision
+             - When two types of plaintexts generate the same hash values
+             - Hashes are supposed to unique for every unique plaintext
+          - Downgrade Attack
+             - A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5
     3. 1.3: Application Attacks
     4. 1.4: Network Attacks
     5. 1.5: Threat Actors and Vectors
