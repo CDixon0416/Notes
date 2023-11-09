@@ -194,7 +194,11 @@ fraud
       - Spyware
 
       - Bots and Botnets
-
+         - Automation of system by malware
+         - Installed via Trojan Horse
+         - Multiple bots make up a botnet
+         - Controlled via a C&C server which sends out commands
+         - Can be used for DDOS, Spam, Network Traffic, and other tasks
       - Logic Bombs
 
       - Password Attacks
