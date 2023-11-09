@@ -188,12 +188,18 @@ fraud
             - Malware that uses cryptography to be able to encrypt all of your personal information for a ransom
 
       - Trojans and RATs
+         - Trojans
+            - Malware that masquerades as a legitimate program or file
+         - RAT
+            - Remote Access Trojan or Remote Administration Tool
 
       - Rootkits
          - Can be present in any OS
          - Normally modifies the kernel of the OS not the filesystem of the OS
            
       - Spyware
+         - More malicious than adware
+         - Used to spy on the user to gain information about them or their habits
 
       - Bots and Botnets
          - Automation of system by malware
