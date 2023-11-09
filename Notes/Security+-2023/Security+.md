@@ -142,7 +142,6 @@ fraud
               - Trust
    
    2. "1.2: Attack Types"
-        - An Overview of Malware
         - Malware
            - Malicious Software
            - Gather information
