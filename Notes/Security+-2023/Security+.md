@@ -212,9 +212,14 @@ fraud
          - Using malicious or invalid data to poison a training set for the AI
 
       - Supply Chain Attacks
-
+         - An attack that focuses on the third party technology a company uses to infect them from a trusted source/vendor
+          
       - Cloud-based vs On-Prem Attacks
-
+          - More flexability vs more control
+          - Higher cost vs Higher Risk
+          - Cloud-based can rely on security and IT services from the cloud provider
+          - On-Prem solutions can be more narrow and focused for your business
+          
       - Cryptographic Attacks
           - How do you guarantee that data you've sent is secure?
              - Without the key the attackers look for exploits/vulnerability/bad configuration in cryptography itself
