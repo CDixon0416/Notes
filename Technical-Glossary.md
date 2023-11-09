@@ -34,6 +34,7 @@
 | SAML              | Security Assertion Markup Language|
 | Smishing          | SMS Phising|
 | Spear-phishing    | Targeted phishing with insider information; includes whaling where you target high level positions such as the CEO or CFO|
+| Spyware           | Malware that spys on a user|
 | Susceptibility    | Possible issue or weakness|
 | Tailgating        | Following behind an authorized person or using social engineering to follow a authorized person through the building|
 | Threat            | Anything that effects the C-I-A triad of a system|
