@@ -27,6 +27,7 @@
 | Pharming          | Harvesting information from a large group via an attack|
 | Phising           | Collecting access credentials via social engineering|
 | Ransomware        | A type of malware that takes your data and holds it for ransom|
+| RAT               | Remote Access Trojan or Remote Administration Tool|
 | Remediate         | The act of mitigating a vulnerability or a threat|
 | Risk              | Likelihood of a threat exploiting a vulnerability|
 | Root Kit          | Malware that provides persistent privileged access|
@@ -36,6 +37,7 @@
 | Susceptibility    | Possible issue or weakness|
 | Tailgating        | Following behind an authorized person or using social engineering to follow a authorized person through the building|
 | Threat            | Anything that effects the C-I-A triad of a system|
+| Trojan            | Malware that masquerades as legitimate software or files|
 | Typosquatting     | Sitting on a slightly modified URL to trick unsuspecting users such as goo(o)gle.com|
 | Virus             | Malware that can reproduce itself|
 | Vishing           | Voice Phising|
