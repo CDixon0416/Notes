@@ -236,20 +236,21 @@ fraud
              - Hashes are supposed to unique for every unique plaintext
           - Downgrade Attack
              - A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5
-             
-    3. "1.3: Application Attacks"
-    4. "1.4: Network Attacks"
-    5. "1.5: Threat Actors and Vectors"
-    6. "1.6: Vulnerabilities"
-    7. "1.7: Security Assessments"
+   3. "1.3: Application Attacks"
+   
+   4. "1.4: Network Attacks"
+   5. "1.5: Threat Actors and Vectors"
+   6. "1.6: Vulnerabilities"
+   7. "1.7: Security Assessments"
     
-    8. "1.8: Penetration Testing"
+   8. "1.8: Penetration Testing"
        - Penetration Testing
           - Pentest
-            - Simulate an attack
-            - Similar to vuln scanning but trys to actually exploit a vulnerability
-            - Often a compliance mandate
-            - See NIST 800-115
+             - Simulate an attack
+             - Similar to vuln scanning but trys to actually exploit a vulnerability
+             - Often a compliance mandate
+             - See NIST 800-115
+         
          - Rules of engagement
             - Defines purpose and scope
             - More importantly it makes everyone aware of the test parameters
@@ -317,49 +318,50 @@ fraud
             - Picture as a referee for security exercises
             
 ## Section 2: Architecture and Design
-    1. "2.1: Enterprise Security"
-       - Configuration Management
-       - Protecting Data
-       - Data Loss Prevention
-       - Managing Security
-       - Site Resilience
+  1. "2.1: Enterprise Security"
+     - Configuration Management
+     - Protecting Data
+     - Data Loss Prevention
+     - Managing Security
+     - Site Resilience
        - Honeypots and Deception
-    2. "2.2: Virtualization and Cloud Computing"
-       - Cloud Models
-       - Edge and Fog Computing
-       - Designing the Cloud
-       - Infrastructure as Code
-       - Virtualization Security
-    3. "2.3: Secure Application Development"
-       - Secure Deployments
-       - Provisioning and Deprovisioning
-       - Secure Coding Techniques
-       - Software Diversity
-       - Automation and Scripting
-    4. "2.4: Authentication and Authorization"
-    5. "2.5: Resilience"
-    6. "2.6: Embedded Systems"
-    7. "2.7: Physical Security Controls"
-    8. "2.8: Cryptographic Concepts"
+  3. "2.2: Virtualization and Cloud Computing"
+     - Cloud Models
+     - Edge and Fog Computing
+     - Designing the Cloud
+     - Infrastructure as Code
+     - Virtualization Security
+  4. "2.3: Secure Application Development"
+     - Secure Deployments
+     - Provisioning and Deprovisioning
+     - Secure Coding Techniques
+     - Software Diversity
+     - Automation and Scripting
+  
+  5. "2.4: Authentication and Authorization"
+  6. "2.5: Resilience"
+  7. "2.6: Embedded Systems"
+  8. "2.7: Physical Security Controls"
+  9. "2.8: Cryptographic Concepts"
 ## Section 3: Implementation
-    1. 3.1: Secure Protocols
-    2. 3.2: Host and Application Security
-    3. 3.3: Secure Network Designs
-    4. 3.4: Wireless Security
-    5. 3.5: Mobile Security
-    6. 3.6: Cloud Security
-    7. 3.7: Identity and Account Management
-    8. 3.8: Authentication and Authorization Services
-    9. 3.9: Public Key Infrastructure
+  1. 3.1: Secure Protocols
+  2. 3.2: Host and Application Security
+  3. 3.3: Secure Network Designs
+  4. 3.4: Wireless Security
+  5. 3.5: Mobile Security
+  6. 3.6: Cloud Security
+  7. 3.7: Identity and Account Management
+  8. 3.8: Authentication and Authorization Services
+  9. 3.9: Public Key Infrastructure
 ## Section 4: Operations and Incident Response
-    1. 4.1: Security Tools
-    2. 4.2: Incident Response
-    3. 4.3: Investigations
-    4. 4.4: Securing an Environment
-    5. 4.5: Digital Forensics
+  1. 4.1: Security Tools
+  2. 4.2: Incident Response
+  3. 4.3: Investigations
+  4. 4.4: Securing an Environment
+  5. 4.5: Digital Forensics
 ## Section 5: Governance, Risk, and Compliance
-    1. 5.1: Security Controls
-    2. 5.2: Regulations, Standards, and Frameworks
-    3. 5.3: Organizational Security Policies
-    4. 5.4: Risk Management
-    5. 5.5: Data Privacy
+  1. 5.1: Security Controls
+  2. 5.2: Regulations, Standards, and Frameworks
+  3. 5.3: Organizational Security Policies
+  4. 5.4: Risk Management
+  5. 5.5: Data Privacy
