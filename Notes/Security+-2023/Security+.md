@@ -242,6 +242,7 @@ fraud
     5. "1.5: Threat Actors and Vectors"
     6. "1.6: Vulnerabilities"
     7. "1.7: Security Assessments"
+    
     8. "1.8: Penetration Testing"
        - Penetration Testing
           - Pentest
