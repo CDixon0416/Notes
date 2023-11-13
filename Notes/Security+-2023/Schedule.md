@@ -11,7 +11,7 @@
 - [ ] ```1.5: Threat Actors and Vectors                   11/10/23```
 - [ ] ```1.6: Vulnerabilities                             11/10/23```
 - [ ] ```1.7: Security Assessments                        11/10/23```
-- [ ] ```1.8: Penetration Testing                         11/17/23```
+- [X] ```1.8: Penetration Testing                         11/17/23```
 - [ ] ```2.1: Enterprise Security                         11/17/23```
 - [ ] ```2.2: Virtualization and Cloud Computing          11/17/23```
 - [ ] ```2.3: Secure Application Development              11/17/23```
