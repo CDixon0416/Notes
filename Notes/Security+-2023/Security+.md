@@ -243,10 +243,98 @@ fraud
     6. "1.6: Vulnerabilities"
     7. "1.7: Security Assessments"
     8. "1.8: Penetration Testing"
+       - Penetration Testing
+          - Pentest
+            - Simulate an attack
+            - Similar to vuln scanning but trys to actually exploit a vulnerability
+            - Often a compliance mandate
+            - See NIST 800-115
+         - Rules of engagement
+            - Defines purpose and scope
+            - More importantly it makes everyone aware of the test parameters
+            - Types of testing and schedule
+            - IP address ranges, emergency contacts, sensitive information handling
+         - How much do you know about the test?
+            - Blind test
+               - Tester knows nothing about the systems
+            - Known environment
+               - Full disclosure
+            - Partially known
+               - Mix of the previous two
+         - Exploiting Vulnerabilites
+               - Try to break into the system
+               - May try multiple techniques, similiar to a real threat actor
+               - Process
+                  - Initial Exploitation
+                  - Lateral Movement
+                  - Persistence
+                  - Clean up (Be responsible return system to starting state)
+      
+      - Reconnaissance
+         - Need information before the attack
+         - Gather a digital footprint
+         - Understand the security posture
+         - Minimize the attack area and focus on key systems
+         - Create a network map
+         - Passive footprinting
+            - Learn as much as you can from open sources
+            - Social media
+            - Corporate site
+            - Online forums
+            - Social Engineering
+            - Dumpster diving
+         - OSINT
+            - Open source intelligence
+            - Date is everywhere osintframework.com
+            - Automated gathering tools
+         - Wardriving/warflying
+            - Combine WiFi monitoring and a GPS
+            - Search from your car or a drone
+            - Huge amount of intel in a short period of time
+            - Get information about security configurations or distance from you
+            - Combine with free tools to find physical locations such as Kismit and inSSiDer
+         - Active Footprinting
+            - Send information into network or device to gain more information
+            - Ping scans, port scans, analyze DNS
+            - Can be seen by someone monitoring their network
+         
+      - Security Teams
+         - Cybsersecurity involves many skills
+         - Become an expert in your niche
+         - Offensive Security Team (Red)
+            - Ethical Hacking
+         - Defensive Security Team (Blue)
+            - Operational Security
+            - Incident Response
+            - Digital Forensics
+         - Purple Team
+            - Combined efforts between red and blue team
+            - Cooperate instead of compete
+         - White Team
+            - Not on a side
+            - Manages the interaction between the red and blue teams
+            - Picture as a referee for security exercises
+            
 ## Section 2: Architecture and Design
     1. "2.1: Enterprise Security"
+       - Configuration Management
+       - Protecting Data
+       - Data Loss Prevention
+       - Managing Security
+       - Site Resilience
+       - Honeypots and Deception
     2. "2.2: Virtualization and Cloud Computing"
+       - Cloud Models
+       - Edge and Fog Computing
+       - Designing the Cloud
+       - Infrastructure as Code
+       - Virtualization Security
     3. "2.3: Secure Application Development"
+       - Secure Deployments
+       - Provisioning and Deprovisioning
+       - Secure Coding Techniques
+       - Software Diversity
+       - Automation and Scripting
     4. "2.4: Authentication and Authorization"
     5. "2.5: Resilience"
     6. "2.6: Embedded Systems"
