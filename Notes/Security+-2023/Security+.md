@@ -239,7 +239,116 @@ fraud
    3. "1.3: Application Attacks"
    
    4. "1.4: Network Attacks"
+   
    5. "1.5: Threat Actors and Vectors"
+       - Threat Actors
+          - An entity responsible for an event that has an impact on the safety of another entity
+          - APT
+             - Advanced Persistent Threat
+          - Insiders
+             - Normally not a professional hacker but has institutional knowledge
+          - Nation States
+             - Governments
+             - National Security
+             - Highest Sophistication
+             - Constant attacks, massive resources
+          - Hacktivist
+             - A hacker with a purpose
+             - Normally a social change or political agenda
+             - Very specific
+             - Limited funding
+          - Script Kiddies
+             - Runs pre-made scripts without any knowledge of what's happening
+             - Not very sophisticated
+             - Lacks formal funding
+             - Motivated by the hunt
+          - Organized Crime
+             - Professional Criminals
+             - Very Sophisticated (Best money can buy)
+             - More organized and may look like a normal company
+          - Hackers
+             - Experts with technology
+             - Authorized vs Unauthorized
+          - Shadow IT
+             - Going around the internal IT organization
+             - IT can put up roadblocks
+             - Not always a good thing
+          - Competitors
+             - High level of sophistication
+             - DoS, Espionage, Harm Reputation
+       
+       - Attack Vectors
+          - Method used by an attacker
+          - Direct access attack vectors
+             - Modify OS
+             - Attach a keylogger
+             - Transfer Files
+             - Denial of service
+          - Wireless attack vectors
+             - Default login credentials
+             - Rogue access points
+             - Evil twin (MitM access point)
+             - Protocol Vulnerabilities
+          - Email attack vectors
+             - One of biggest and most successful attack vectors
+             - Phising Attacks
+             - Deliver Malware to end user
+             - Social Engineering Attacks
+          - Supply chain attack vectors
+             - Tamper with the underlying infrastructure
+             - Gain access to a network using a vendor
+             - Modify the manufacturing process
+             - Counterfeit networking equipment
+          - Social media attack vectors
+             - User profiling
+             - Fake Friends
+          - Removable Media attack vectors
+             - Get around firewall
+             - Malicious USB
+             - Data exfiltration
+          - Cloud attack vectors
+             - Public facing
+             - Security misconfigurations
+             - Brute Force attacks
+             - Orchestration attacks
+             - Denial of Service  
+       
+       - Threat Intelligence
+          - Research the threats
+          - Data is everywhere
+          - OSINT
+             - Internet
+             - Government data
+             - Commercial data
+          - Closed/proprietary intelligence
+             - Threat intelligence services
+             - Threat analytics
+             - Constant threat monitoring
+          - Vulnerability Databases
+             - Public research
+             - CVE (Common Vulnerabilities and Exposures)
+                - Sponsored by DHS and CISA
+                - Provides severity scoring and patching information
+          - Automated indicator sharing (AIS)
+             - Structured Threat Information eXpression (STIX)
+             - Trusted Automated eXchanged of Indicator Information (TAXII)
+          - Indicators of compromise
+             - An event that indicates an intrusion
+             - Indicators
+                - Unusual amount of network activity
+                - Change to file hash values
+                - Irregular international traffic
+                - Changes to DNS data
+                - Uncommon login patterns
+          - Predictive analysis
+             - Find suspicious patterns
+             - Big data but for cybersecurity
+             - Identify behaviors
+             - Create a forecast for potential attacks
+             - Often combined with machine learning
+               
+       - Threat Research
+         
    6. "1.6: Vulnerabilities"
    7. "1.7: Security Assessments"
     
