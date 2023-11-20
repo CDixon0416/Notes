@@ -29,6 +29,13 @@ CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" 
 The tool is designed to enable both technical and non-technical analysts to manipulate data in complex ways without having to deal with complex tools or algorithms. It was conceived, designed, built and incrementally improved by an analyst in their 10% innovation time over several years.
 </details>
 
+## CVE Database
+### https://nvd.nist.gov/
+<details>
+<summary>Description</summary>
+The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. The NVD includes databases of security checklist references, security-related software flaws, product names, and impact metrics.
+</details>
+
 ## DOD STIG Library
 ### https://public.cyber.mil/stigs/downloads/
 <details>
