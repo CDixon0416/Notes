@@ -375,8 +375,24 @@ fraud
      
              
      - Secure Coding Techniques
+
      - Software Diversity
+        - Once you exploit one binary you can exploit them all
+        - Alternative compiler paths would result in a different binary each time it's compiled
+        - This would mean an attacker can't use the same exploit across the network
+
      - Automation and Scripting
+        - Plan for change
+        - Continuous monitoring
+        - Configuration validation
+        - Continuous Integration (CI)
+           - Code is constantly written
+           - Basic set of security checks during development
+           - Large-scale security analysis during testing
+        - Continuous Delivery (CD) 
+           - Automate the testing process
+        - Continuous Deployment
+           - Automate the release process
   
   6. "2.4: Authentication and Authorization"
   7. "2.5: Resilience"
