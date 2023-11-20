@@ -46,6 +46,12 @@
 
 To do:
 Kerberos
+Sandboxing
+Provisioning
+Scalability
+Elasticity
+Orchestration
+Deprovisioning
 
 
 
