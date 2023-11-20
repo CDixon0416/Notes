@@ -372,10 +372,41 @@ fraud
            - Security deprovisioning is important
            - If the application is gone so is the access
            - Don't leave information out there
-     
-             
-     - Secure Coding Techniques
 
+     - Secure Coding Techniques
+        - A balance between time and quality
+        - Vulnerabilities will eventually be found
+        - Stored procedures
+           - SQL Databases
+           - Client requests can be complex
+           - Stored procedures limit the clients interactions to approved parameters
+        - Obfusacation
+           - Take readable code and turn it into nonsense
+           - Helps prevent the search for vulnerabilities
+        - Code Reuse
+           - Also can copy vulnerabilites
+           - Dead code
+           - All code is an opportunity for a security problem
+        - Input Validation
+           - Validate actual vs expected
+           - Fuzzers will find what you missed
+           - Server side validation
+           - Client side validation
+           - Use both, but at least server side
+        - Memory Management
+           - Never trust user input
+           - Some built-in functions are insecure
+        - Third-party libraries and SDKs
+           - Extend the functionality of a programming language
+           - Extensive testing is required
+           - Balancing act between functionality and security
+        - Data Exposure
+           - How is the application handling the data?
+           - Check all input and output processes for data exposure
+        - Version Control
+           - Track changes of the software releases
+           - Useful for security
+      
      - Software Diversity
         - Once you exploit one binary you can exploit them all
         - Alternative compiler paths would result in a different binary each time it's compiled
