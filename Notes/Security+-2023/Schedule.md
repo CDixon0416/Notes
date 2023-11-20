@@ -14,7 +14,7 @@
 - [X] ```1.8: Penetration Testing                         11/17/23```
 - [ ] ```2.1: Enterprise Security                         11/17/23```
 - [ ] ```2.2: Virtualization and Cloud Computing          11/17/23```
-- [ ] ```2.3: Secure Application Development              11/17/23```
+- [X] ```2.3: Secure Application Development              11/17/23```
 - [ ] ```2.4: Authentication and Authorization            11/24/23```
 - [ ] ```2.5: Resilience                                  11/24/23```
 - [ ] ```2.6: Embedded Systems                            11/24/23```
