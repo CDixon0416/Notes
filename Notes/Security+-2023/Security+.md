@@ -213,8 +213,29 @@ fraud
          - Commonly left by disgruntled employees
 
       - Password Attacks
+         - Plaintext/unencrypted passwords
+         - Hashing a password
+            - Only works one way and can't be reversed
+         - Spraying attack
+            - Try to use common passwords for every account
+         - Brute Force
+            - Try every possible password combination until a hash is matched
+         - Offline Attack
+            - Brute force but offline, by copying the password hashes
+         - Dictionary Attack
+            - Use a dictionary to find common words
+            - More targeted brute force using plain english words as the guess
+         - Rainbow Tables
+            - An optimized, pre-built set of hashes
+         - Salting the hash
+            - Random data added to a password when hashing
+            - Every user gets their own random salt
 
       - Physical Attacks
+         - Malicious USB Cable
+         - Malicious Flash Drive
+         - Skimming
+         - Card Cloning
 
       - Adversarial Artiifical Intelligence
          - Using malicious or invalid data to poison a training set for the AI
@@ -361,8 +382,15 @@ fraud
           - Threat Feeds
          
    6. "1.6: Vulnerabilities"
+       - Vulnerability Types
+       - Third-party Risks
+       - Vulnerability Impacts
+         
    7. "1.7: Security Assessments"
-    
+       - Threat Hunting
+       - Vulnerability Scans
+       - Security Information and Event Management
+         
    8. "1.8: Penetration Testing"
        - Penetration Testing
           - Pentest
