@@ -5,7 +5,7 @@
 |-----------------------------------------------------|--------|
 - [X] ```0.1: Introduction                                10/27/23```
 - [X] ```1.1: Social Engineering                          11/03/23```
-- [ ] ```1.2: Attack Types                                11/03/23```
+- [X] ```1.2: Attack Types                                11/03/23```
 - [ ] ```1.3: Application Attacks                         11/03/23```
 - [ ] ```1.4: Network Attacks                             11/10/23```
 - [X] ```1.5: Threat Actors and Vectors                   11/10/23```
