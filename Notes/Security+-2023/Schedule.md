@@ -8,7 +8,7 @@
 - [ ] ```1.2: Attack Types                                11/03/23```
 - [ ] ```1.3: Application Attacks                         11/03/23```
 - [ ] ```1.4: Network Attacks                             11/10/23```
-- [ ] ```1.5: Threat Actors and Vectors                   11/10/23```
+- [X] ```1.5: Threat Actors and Vectors                   11/10/23```
 - [ ] ```1.6: Vulnerabilities                             11/10/23```
 - [ ] ```1.7: Security Assessments                        11/10/23```
 - [X] ```1.8: Penetration Testing                         11/17/23```
