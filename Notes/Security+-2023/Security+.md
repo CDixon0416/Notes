@@ -406,7 +406,32 @@ fraud
           - Legacy Systems
             
        - Third-party Risks
+          - IT Security doesn't change because it's a third-party
+          - Human error is stil the biggest issue
+          - System integration risk
+             - Can be on-site
+             - Can include elevated OS access
+             - Can run software on the internal network
+             - Lack of vendor support
+                - Security requires diligence
+                - Vendors are the only ones who can fix their products
+          - Supply chain risk
+             - You can't always control security at a third-party
+             - Always maintain local security controls
+             - Hardware and Software from a vendor can contain malware
+             - Outsourced code development
+                - Development systems should be isolated
+                - Test code security
+             - Data Storage
+                - Consider the type of data
+                - Storage at a third-party may need encryption
+                  
        - Vulnerability Impacts
+          - Data loss
+          - Identity Theft
+          - Financial loss
+          - Reputation Impacts
+          - Availability loss
          
    7. "1.7: Security Assessments"
        - Threat Hunting
