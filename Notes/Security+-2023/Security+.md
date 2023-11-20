@@ -383,6 +383,28 @@ fraud
          
    6. "1.6: Vulnerabilities"
        - Vulnerability Types
+          - Zero-day attacks
+             - Vulnerability that has not been detected or published
+             - Attackers keep these yet-to-be-discovered vulns to themselves
+          - Open Permissions
+             - Data without a security component and anyone can read it
+             - Increasingly common with cloud storage
+          - Unsecured Root Accounts
+             - Can be a misconfiguration
+             - Easy to hack password
+             - Disable direct login to root
+          - Weak Encryption
+             - TLS is one of the most common issues
+          - Insecure protocols
+             - Verify with a packet capture
+          - Default settings
+             - Mirai botnet
+          - Open ports and services
+             - Often managed with a firewall
+             - Easy to misconfigure
+          - Improper Patch Management
+          - Legacy Systems
+            
        - Third-party Risks
        - Vulnerability Impacts
          
@@ -398,7 +420,6 @@ fraud
              - Similar to vuln scanning but trys to actually exploit a vulnerability
              - Often a compliance mandate
              - See NIST 800-115
-         
          - Rules of engagement
             - Defines purpose and scope
             - More importantly it makes everyone aware of the test parameters
