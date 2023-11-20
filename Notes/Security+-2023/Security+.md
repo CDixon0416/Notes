@@ -348,6 +348,17 @@ fraud
              - Often combined with machine learning
                
        - Threat Research
+          - Know your enemy
+          - Continuing education
+          - Vendor Websites
+             - Involved in the disclosure process
+          - Vulnerability feeds
+          - Conferences
+          - Academic Journals
+          - RFCs
+          - Local industry groups
+          - Social Media
+          - Threat Feeds
          
    6. "1.6: Vulnerabilities"
    7. "1.7: Security Assessments"
