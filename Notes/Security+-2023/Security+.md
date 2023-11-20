@@ -353,15 +353,36 @@ fraud
            - Integrity checks to verify production matches baseline
         
      - Provisioning and Deprovisioning
+        - Provisioning
+           - Deploy an application
+           - Application Software Security
+           - Network Security
+           - Security scans such as nessus
+        - Scalability
+           - Ability to increase the workload in a given infrastructure
+        - Elasticity
+           - Ability to increase or decrease available resources as the workload changes
+        - Orchestration
+           - Automate the provisiong and deprovisioning of applications
+           - Servers,networks,switches,firewalls,policies
+           - Can move around the world as needed
+           - Security policies are part of orchestration
+        - Deprovisioning
+           - Dismantling and removing an application instance
+           - Security deprovisioning is important
+           - If the application is gone so is the access
+           - Don't leave information out there
+     
+             
      - Secure Coding Techniques
      - Software Diversity
      - Automation and Scripting
   
-  5. "2.4: Authentication and Authorization"
-  6. "2.5: Resilience"
-  7. "2.6: Embedded Systems"
-  8. "2.7: Physical Security Controls"
-  9. "2.8: Cryptographic Concepts"
+  6. "2.4: Authentication and Authorization"
+  7. "2.5: Resilience"
+  8. "2.6: Embedded Systems"
+  9. "2.7: Physical Security Controls"
+  10. "2.8: Cryptographic Concepts"
 ## Section 3: Implementation
   1. 3.1: Secure Protocols
   2. 3.2: Host and Application Security
