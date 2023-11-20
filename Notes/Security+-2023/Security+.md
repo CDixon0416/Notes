@@ -324,7 +324,7 @@ fraud
      - Data Loss Prevention
      - Managing Security
      - Site Resilience
-       - Honeypots and Deception
+     - Honeypots and Deception
   3. "2.2: Virtualization and Cloud Computing"
      - Cloud Models
      - Edge and Fog Computing
