@@ -333,6 +333,25 @@ fraud
      - Virtualization Security
   4. "2.3: Secure Application Development"
      - Secure Deployments
+        - Development to Production
+           - How will you deploy it safely and reliably?
+           - How will you test and deploy patches?
+        - Sandboxing
+           - Isolated testing environment
+           - No connection to the real world or a production system
+           - Helpful for incremental development
+        - Building the application  
+           - Development
+           - Test
+           - QA
+           - Staging
+           - Production
+        - Secure baselines
+           - All applications should use the baseline
+           - Firewall settings, patch levels, os file versions
+           - May require constant updates
+           - Integrity checks to verify production matches baseline
+        
      - Provisioning and Deprovisioning
      - Secure Coding Techniques
      - Software Diversity
