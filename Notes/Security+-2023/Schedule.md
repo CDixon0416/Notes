@@ -20,7 +20,7 @@
 - [ ] ```2.6: Embedded Systems                            11/24/23```
 - [ ] ```2.7: Physical Security Controls                  11/24/23```
 - [ ] ```2.8: Cryptographic Concepts                      12/01/23```
-- [ ] ```3.1: Secure Protocols                            12/01/23```
+- [X] ```3.1: Secure Protocols                            12/01/23```
 - [ ] ```3.2: Host and Application Security               12/01/23```
 - [ ] ```3.3: Secure Network Designs                      12/01/23```
 - [ ] ```3.4: Wireless Security                           12/08/23```
