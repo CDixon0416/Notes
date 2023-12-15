@@ -435,8 +435,63 @@ fraud
          
    7. "1.7: Security Assessments"
        - Threat Hunting
+          - Find the attacker before they find you
+          - Strategies are constantly changing
+          - Intelligence fusion
+             - Too much data to properly detect, analyze, and react
+          - Fusing the data
+             - Collect the data
+             - Add external sources
+             - Correlate with big data analytics
+          - Cybersecurity maneuvers
+             - Modify firewalls, OS, and networks based on analysis
+             - Mostly automated once setup correctly
+             - "Tomorrow it's a different fight"
+      
        - Vulnerability Scans
+          - Usually minimally invasive
+          - Unlike a penetration test
+          - Port Scan
+             - Send traffic and see what ports are open
+          - Identify systems
+          - Test from outside and inside
+          - Scan Types
+             - Non-intrusive scans
+                - Gather info, does not exploit a vulnerability
+             - Intrusive scans
+                - Test the vulnerability yourself
+             - Non-credentialed vs credentialed scan
+             - Application scans
+             - Web Application scans
+             - Network Scans
+       
        - Security Information and Event Management
+          - SIEM
+             - Log collection of security alerts
+             - Log aggregation and long-term storage
+             - Data Correlation
+             - Forensic analysis
+          - Syslog
+             - Standard for message logging
+             - Lots of storage needed
+          - SIEM Data
+             - Data Inputs
+                - Server auth attempts
+                - VPN connections
+                - Firewall logs
+                - Denied outbound traffic
+                - Network utilizations
+             - Packet Captures
+          - Security Monitoring
+             - Constant information flow
+             - Track important statistics
+             - Send alerts
+          - SOAR
+             - Security orchestration, automation, and response
+             - Orchestration
+                - Connect many tools together
+             - Automation
+             - Respone   
          
    8. "1.8: Penetration Testing"
        - Penetration Testing
