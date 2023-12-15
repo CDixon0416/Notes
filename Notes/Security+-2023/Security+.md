@@ -680,7 +680,61 @@ fraud
   9. "2.7: Physical Security Controls"
   10. "2.8: Cryptographic Concepts"
 ## Section 3: Implementation
-  1. 3.1: Secure Protocols
+  1. "3.1: Secure Protocols"
+     - Secure Protocols
+        - Voice and Video
+           - SRTP: Secure Real Time Transport Protocol
+           - Adds security to RTP
+           - Encryption, Authentication, Integrity and replay protection
+        - Time Synchronization
+           - Classic NTP has no security features
+           - Makes it exploitable as an amplifier
+           - NTPsec
+           - Cleaned up code base for NTP
+        - Email
+           - S/MIME: Secure/Multipurpose Internet Mail Extensions
+           - Public/Private key pair used for digitial signing
+           - Secure POP and Secure IMAP
+              - Can use SSL
+           - SSL/TLS
+              - For encrypted web mail
+        - Web
+           - SSL/TLS
+           - Secure Sockets Layer / Transport Layer Security
+           - HTTPS
+        - IPsec
+           - Internet protocol security
+           - Security for Layer 3
+           - Authentication Header (AH)
+           - Encapsulation Security Payload (ESP)
+        - File Transfer
+           - FTPS: File over SSL
+           - SFTP: File over SSH
+        - LDAP
+           - Lightweight Directory Access Protocol
+           - Protocol for reading and writing directories over an IP network
+           - LDAPS: LDAP over SSL
+           - SASL: Simple Authentication and Security Layer
+        - Remote Access
+           - SSH
+        - Domain Name Resolution
+           - Same problem as NTP
+           - DNSSec
+           - Validate DNS responses
+        - Routing and Switching
+           - SSH
+           - SNMPv3: Simple Network Management Protocol 3
+              - Provides CIA Triad
+           - HTTPS
+        - Network Address Allocation
+           - DHCP: Dynamic Host Configuration Protocol
+           - Same issues as NTP, or DNS
+           - Combined with active directory to authorize DHCP servers
+        - Subscription services
+           - Anti-virus, IPS, Firewall updates
+           - Constant updates all using different methods
+           - Check for encryption and integrity checks       
+  
   2. 3.2: Host and Application Security
   3. 3.3: Secure Network Designs
   4. 3.4: Wireless Security
