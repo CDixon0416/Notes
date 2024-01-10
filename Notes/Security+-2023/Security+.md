@@ -894,4 +894,35 @@ fraud
             - Confidential
             - Critical
       - Enhancing Privacy
+         - Tokenization
+            - Replace sensitive data with a non-sensitive placeholder
+            - Common with credit card processing
+            - Attacker capturing the card numbers can't use them later
+         - Data minimization
+            - Only collect and retain the necessary data
+            - Included in many regulations
+            - Internal data use should be limited
+         - Data Masking
+            - Hide some of the original data
+            - Protects PII
+            - May only be hidden from view by permissions
+         - Anonymization
+            - Make it impossible to identify individual data from a dataset
+            - Hashing, masking, etc
+            - Convert from detailed customer purchase data
+         - Pseudoanonymization
+            - Replace personal information with pseudonums
+            - May be reversible for other processes
       - Data Roles and Responsibilities
+         - High-level data relationships
+         - Data owner
+            - Accountable for specific data, often a senior officer
+            - VP of Sales owns the customer relationship data
+         - Data controller
+            - Manages the purposes and means by which personal data is processed
+         - Data processor
+            - Processes data on behalf of the data controller
+         - Data custodian
+            - Responsible for data accuracy, privacy, and security
+         - Data protection officer
+            - Responsible for the organization's data privacy
