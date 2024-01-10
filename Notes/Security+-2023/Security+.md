@@ -738,6 +738,107 @@ fraud
   2. 3.2: Host and Application Security
   3. 3.3: Secure Network Designs
   4. 3.4: Wireless Security
+      - Wireless Cryptography
+         - An organization's wireless netowrk can contain confidential information
+         - Authenticate the users before granting access
+         - Ensure that all communication is confidential
+         - Verify the integrity of all communication
+         - Wireless encryption
+            - All wireless computers are radio transmitters and receivers
+            - Solution: Encrypt the data
+            - Only people with the right key can transmit and listen
+         - WPA2 and CCMP
+            - Wi-fi protected access 2
+            - CCMP block cipher mode
+               - Data confidentiality with AES
+               - Message integrity with CBC-MAC
+         - WPA3
+            - GCMP block cipher mode
+               - Data confidentiality with AES
+               - Message integrity with GMAC
+         - WPA2 has a PSK brute-force problem
+      - Wireless Authentication Methods
+         - Gain access to a wireless network
+         - Credentials
+            - Shared password/pre-shared key (PSK)
+            - Centralized authentication (802.1x)
+         - Wireless security modes
+            - Open System
+               - No password
+            - WPA3-Personal
+               - WPA3 with a PSK
+            - WPA3-Enterprise
+               - WPA3 with 802.1X
+            - Captive Portal
+               - Web session based credentials
+      - Wireless Authentication Protocols
+         - Extensible Authentication Protocol (EAP)
+            - Integrates with 802.1X
+         - 802.1X
+            - Port based Network Access Control
+            - Used in conjunction with an access database (RADIUS, LDAP, TACACS+)
+            - Supplicant - Client
+            - Authenticator - Device that provides access
+            - Authentication Server - Validates the client credentials
+         - EAP-FAST
+            - EAP Flexible Authentication via Secure Tunneling
+            - Supplicant and AS mutually authenticate and negotiate a TLS tunnel
+         - PEAP
+            - Protected Extensible Authentication Protocol
+            - Also encapsulates EAP in a TLS tunnel
+            - AS uses a digital cert instead of a PAC
+            - User can also authenticate with a GTC(Generic token card)
+         - EAP-TLS
+            - EAP Transport Layer Security
+            - Requires digitial certificate on the AS and all other devices
+            - Needs a Public Key Infrastructure (PKI)
+         - EAP-TTLS
+            - EAP Tunneled Transport Layer Security
+            - Requires a digitial cert on the AS
+            - Builds a TLS tunnel using this digitial cert
+            - Use any authentication method inside the TLS tunnel
+         - RADIUS Federation
+            - Members of one organization canauthenticate to the network of another organization
+            - Uses 802.1X as the authentication method
+      - Installing Wireless Networks
+         - Site Surveys
+            - Determine existing wireless landscape
+            - Identify existing access points you may not control all of them
+            - Work around existing frequencies
+            - Plan for ongoing site surveys
+            - Heat maps
+         - Wireless survey tools
+            - Signal coverage
+            - Potential interference
+            - Built-in tools for AP
+            - 3rd-party tools
+            - Spectrum analyzer
+         - Wireless packet analysis
+            - Wireless networks are incredibly easy to monitor
+            - You have to be quiet
+            - Some network drivers won't capture wireless information
+         - Channel selection and overlaps
+            - Overlapping channels
+               - Frequency conflicts
+               - Automatic or manual configuration
+         - Acess point placement
+            - Minimal overlap, maximize coverage
+            - Avoid interference
+               - Microwaves
+               - Building materials
+               - Third party wireless networks
+            - Signal Control
+               - Place APs where the users are
+               - Avoid excessive signal distance (i.e. outside the building)
+         - Wireless infrastructure security
+            - Wireless controllers
+               - Centralized management of wireless access points
+            - Securing wireless controllers
+               - Use strong encryption with HTTPs
+               - Automatic timeout
+            - Securing access points
+               - Use strong passwords
+               - Update to the latest firmware
   5. 3.5: Mobile Security
   6. 3.6: Cloud Security
   7. 3.7: Identity and Account Management
@@ -751,27 +852,46 @@ fraud
   5. 4.5: Digital Forensics
 ## Section 5: Governance, Risk, and Compliance
   1. 5.1: Security Controls
-      - Data Lifecycle
-         - Creation and Receipt
-         - Distribution
-         - Use
-         - Maintenance
-      - Consequences
-         - Reputation Damage
-         - Identity Theft
-         - Fines
-         - IP Theft
-      - Discovery
-         - Internal escalation process
-         - External escalation process
-         - Public disclosure
-      - Privacy Impact Assessment (PIA)
-         - Privacy risk needs to be identified in each initiative
-         - Advantages
-            - Fix privacy issues before they become a problem
-            - Avoid data breach
-            - Provides evidence of a focus on privacy
   2. 5.2: Regulations, Standards, and Frameworks
   3. 5.3: Organizational Security Policies
   4. 5.4: Risk Management
   5. 5.5: Data Privacy
+      - Privacy and Data Breaches
+         - Data Lifecycle
+            - Creation and Receipt
+            - Distribution
+            - Use
+            - Maintenance
+         - Consequences
+            - Reputation Damage
+            - Identity Theft
+            - Fines
+            - IP Theft
+         - Discovery
+            - Internal escalation process
+            - External escalation process
+            - Public disclosure
+         - Privacy Impact Assessment (PIA)
+            - Privacy risk needs to be identified in each initiative
+            - Advantages
+               - Fix privacy issues before they become a problem
+               - Avoid data breach
+               - Provides evidence of a focus on privacy
+      - Data Classifications
+         - Labeling sensitive data
+            - Not all data has the same level of sensitivity
+            - Different levels require different security and handling
+         - Classifications
+            - Proprietary
+               - Data that is owned by an organization
+            - PII
+               - Personally Identifiable Information
+            - PHI
+               - Protected Health Information
+            - Public/Unclassified
+            - Private/Classified/Restricted
+            - Sensitive
+            - Confidential
+            - Critical
+      - Enhancing Privacy
+      - Data Roles and Responsibilities
