@@ -751,6 +751,26 @@ fraud
   5. 4.5: Digital Forensics
 ## Section 5: Governance, Risk, and Compliance
   1. 5.1: Security Controls
+      - Data Lifecycle
+         - Creation and Receipt
+         - Distribution
+         - Use
+         - Maintenance
+      - Consequences
+         - Reputation Damage
+         - Identity Theft
+         - Fines
+         - IP Theft
+      - Discovery
+         - Internal escalation process
+         - External escalation process
+         - Public disclosure
+      - Privacy Impact Assessment (PIA)
+         - Privacy risk needs to be identified in each initiative
+         - Advantages
+            - Fix privacy issues before they become a problem
+            - Avoid data breach
+            - Provides evidence of a focus on privacy
   2. 5.2: Regulations, Standards, and Frameworks
   3. 5.3: Organizational Security Policies
   4. 5.4: Risk Management
