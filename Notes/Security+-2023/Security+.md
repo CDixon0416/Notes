@@ -851,7 +851,30 @@ fraud
   4. 4.4: Securing an Environment
   5. 4.5: Digital Forensics
 ## Section 5: Governance, Risk, and Compliance
-  1. 5.1: Security Controls
+  1. 5.1: Security Controls 
+      - Prevent security events, minimize the impact and limit the damage
+      - Control Categories
+         - Managerial Controls
+            - Controls that address security design and implementation
+            - Security policies, standard operating procedures
+         - Operational Controls
+            - Controls that are implemented by people
+            - Security guards, awareness programs
+         - Technical Controls
+            - Controls implmented using systems
+            - Firewalls, Operating systems controls
+      - Control Types
+         - Preventive
+            - Prevents access, door lock or firewall
+         - Detective
+            - Identifies and records any intrusion attempt
+         - Corrective
+            - Mitigate any damage that occurs during a security event
+         - Deterrent
+            - May deter someone from an intrusion
+         - Compensating
+            - Doesn't prevent an attack, but compensates for the results of the attack
+         - Physical      
   2. 5.2: Regulations, Standards, and Frameworks
   3. 5.3: Organizational Security Policies
   4. 5.4: Risk Management
