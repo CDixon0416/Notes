@@ -23,7 +23,7 @@
 - [X] ```3.1: Secure Protocols                            12/01/23```
 - [ ] ```3.2: Host and Application Security               12/01/23```
 - [ ] ```3.3: Secure Network Designs                      12/01/23```
-- [ ] ```3.4: Wireless Security                           12/08/23```
+- [X] ```3.4: Wireless Security                           12/08/23```
 - [ ] ```3.5: Mobile Security                             12/08/23```
 - [ ] ```3.6: Cloud Security                              12/08/23```
 - [ ] ```3.7: Identity and Account Management             12/08/23```
