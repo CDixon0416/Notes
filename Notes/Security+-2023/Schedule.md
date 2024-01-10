@@ -34,8 +34,8 @@
 - [ ] ```4.3: Investigations                              12/22/23```
 - [ ] ```4.4: Securing an Environment                     12/22/23```
 - [ ] ```4.5: Digital Forensics                           12/22/23```
-- [ ] ```5.1: Security Controls                           12/22/23```
+- [X] ```5.1: Security Controls                           12/22/23```
 - [ ] ```5.2: Regulations, Standards, and Frameworks      12/29/23```
 - [ ] ```5.3: Organizational Security Policies            12/29/23```
 - [ ] ```5.4: Risk Management                             12/29/23```
-- [ ] ```5.5: Data Privacy                                12/29/23```
+- [X] ```5.5: Data Privacy                                12/29/23```
