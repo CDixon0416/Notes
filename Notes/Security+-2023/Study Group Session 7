@@ -1,1 +1,71 @@
+Review the OSI Model
+Please do not throw sausage pizza away
+Physical
+Data/Link
+Network
+Transport
+Session
+Presentation
+Application
 
+TCP vs UDP
+  - Difference
+  - 3-way handshake
+  - Example protocols
+
+MAC vs IP Address
+
+SSL vs TLS
+  - Review the difference
+
+ARP
+DNS
+
+Cyber Kill Chain
+6 steps
+- Reconnaissance
+- Weaponization
+- Delivery
+- Exploitation
+- Installation
+- Command and Control
+- Actions on Objectives
+
+Diamond Model of Intrusion Analysis
+- MITRE ATT&CK Framework
+
+Denial of Service Attacks
+- SYN Flood
+
+On-Path Attacks(MITM)
+
+SSL Stripping
+- Changes HTTPS back to HTTP
+
+L2 Attacks - MAC Flooding
+- Overload Switch
+
+DNS Attacks
+- DNS Poisoning
+- Pharming
+- URL Redirect
+- Domain Hijacking
+- DNS Sinkhole
+
+Replay Attacks/Session Replay
+
+OpenSSL and SSH
+
+Application Attacks
+- Zero Day
+- Memory Vulnerabilities
+- Buffer Overflow
+- Integer Overflows
+- Pointer/Object De-Reference
+- Injection
+- Directory Traversal
+- Client-Server Attacks (XSS Attack)
+- Cross-site Request Forgery
+- Driver Manipulation
+  - Shimming
+- AI/ML Attacks
