@@ -146,7 +146,8 @@
               - Familiarity or Liking
               - Trust
    </details>
-   2. "1.2: Attack Types"
+   <details>
+   <summary> "1.2: Attack Types" </summary>
         - Malware
            - Malicious Software
            - Gather information
@@ -262,6 +263,7 @@
              - Hashes are supposed to unique for every unique plaintext
           - Downgrade Attack
              - A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5
+   </details>
    3. "1.3: Application Attacks"
    
    4. "1.4: Network Attacks"
@@ -571,7 +573,8 @@
             - Manages the interaction between the red and blue teams
             - Picture as a referee for security exercises
 </details>
-## Section 2: Architecture and Design
+<details>
+<summary> Section 2: Architecture and Design </summary>
   1. "2.1: Enterprise Security"
      - Configuration Management
      - Protecting Data
@@ -684,7 +687,9 @@
   8. "2.6: Embedded Systems"
   9. "2.7: Physical Security Controls"
   10. "2.8: Cryptographic Concepts"
-## Section 3: Implementation
+</details>
+<details>
+<summary> Section 3: Implementation </summary>
   1. "3.1: Secure Protocols"
      - Secure Protocols
         - Voice and Video
@@ -849,12 +854,25 @@
   7. 3.7: Identity and Account Management
   8. 3.8: Authentication and Authorization Services
   9. 3.9: Public Key Infrastructure
-## Section 4: Operations and Incident Response
-  1. 4.1: Security Tools
-  2. 4.2: Incident Response
-  3. 4.3: Investigations
-  4. 4.4: Securing an Environment
-  5. 4.5: Digital Forensics
+</details>
+<details open>
+<summary> Section 4: Operations and Incident Response </summary>
+   <details open>
+   <summary> 4.1: Security Tools </summary>
+   </details>
+   <details open>
+   <summary> 4.2: Incident Response </summary>
+   </details>
+   <details open>
+   <summary> 4.3: Investigations </summary>
+   </details>
+   <details open>
+   <summary >4.4: Securing an Environment </summary>
+   </details>
+   <details open>
+   <summary> 4.5: Digital Forensics </summary>
+   </details>
+</details>
 ## Section 5: Governance, Risk, and Compliance
   1. 5.1: Security Controls 
       - Prevent security events, minimize the impact and limit the damage
@@ -954,3 +972,4 @@
             - Responsible for data accuracy, privacy, and security
          - Data protection officer
             - Responsible for the organization's data privacy
+</details>
