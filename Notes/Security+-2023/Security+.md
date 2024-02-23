@@ -148,7 +148,8 @@
    </details>
    <details>
    <summary> "1.2: Attack Types" </summary>
-        - Malware
+        
+      - Malware
            - Malicious Software
            - Gather information
            - Participate in a group (think botnet)
@@ -575,113 +576,121 @@
 </details>
 <details>
 <summary> Section 2: Architecture and Design </summary>
-  1. "2.1: Enterprise Security"
-     - Configuration Management
-     - Protecting Data
-     - Data Loss Prevention
-     - Managing Security
-     - Site Resilience
-     - Honeypots and Deception
-  3. "2.2: Virtualization and Cloud Computing"
-     - Cloud Models
-     - Edge and Fog Computing
-     - Designing the Cloud
-     - Infrastructure as Code
-     - Virtualization Security
-  4. "2.3: Secure Application Development"
-     - Secure Deployments
-        - Development to Production
-           - How will you deploy it safely and reliably?
-           - How will you test and deploy patches?
-        - Sandboxing
-           - Isolated testing environment
-           - No connection to the real world or a production system
-           - Helpful for incremental development
-        - Building the application  
-           - Development
-           - Test
-           - QA
-           - Staging
-           - Production
-        - Secure baselines
-           - All applications should use the baseline
-           - Firewall settings, patch levels, os file versions
-           - May require constant updates
-           - Integrity checks to verify production matches baseline
-        
-     - Provisioning and Deprovisioning
-        - Provisioning
-           - Deploy an application
-           - Application Software Security
-           - Network Security
-           - Security scans such as nessus
-        - Scalability
-           - Ability to increase the workload in a given infrastructure
-        - Elasticity
-           - Ability to increase or decrease available resources as the workload changes
-        - Orchestration
-           - Automate the provisiong and deprovisioning of applications
-           - Servers,networks,switches,firewalls,policies
-           - Can move around the world as needed
-           - Security policies are part of orchestration
-        - Deprovisioning
-           - Dismantling and removing an application instance
-           - Security deprovisioning is important
-           - If the application is gone so is the access
-           - Don't leave information out there
-
-     - Secure Coding Techniques
-        - A balance between time and quality
-        - Vulnerabilities will eventually be found
-        - Stored procedures
-           - SQL Databases
-           - Client requests can be complex
-           - Stored procedures limit the clients interactions to approved parameters
-        - Obfusacation
-           - Take readable code and turn it into nonsense
-           - Helps prevent the search for vulnerabilities
-        - Code Reuse
-           - Also can copy vulnerabilites
-           - Dead code
-           - All code is an opportunity for a security problem
-        - Input Validation
-           - Validate actual vs expected
-           - Fuzzers will find what you missed
-           - Server side validation
-           - Client side validation
-           - Use both, but at least server side
-        - Memory Management
-           - Never trust user input
-           - Some built-in functions are insecure
-        - Third-party libraries and SDKs
-           - Extend the functionality of a programming language
-           - Extensive testing is required
-           - Balancing act between functionality and security
-        - Data Exposure
-           - How is the application handling the data?
-           - Check all input and output processes for data exposure
-        - Version Control
-           - Track changes of the software releases
-           - Useful for security
+   <details>
+   <summary> "2.1: Enterprise Security" </summary>
+     
+      - Configuration Management
+      - Protecting Data
+      - Data Loss Prevention
+      - Managing Security
+      - Site Resilience
+      - Honeypots and Deception
+   </details>
+   <detail>
+   <summary> "2.2: Virtualization and Cloud Computing" </summary>
+     
+      - Cloud Models
+      - Edge and Fog Computing
+      - Designing the Cloud
+      - Infrastructure as Code
+      - Virtualization Security
+   </detail>
+   <detail>
+   <summary> "2.3: Secure Application Development" </summary>
       
-     - Software Diversity
-        - Once you exploit one binary you can exploit them all
-        - Alternative compiler paths would result in a different binary each time it's compiled
-        - This would mean an attacker can't use the same exploit across the network
+      - Secure Deployments
+      - Development to Production
+         - How will you deploy it safely and reliably?
+         - How will you test and deploy patches?
+      - Sandboxing
+         - Isolated testing environment
+         - No connection to the real world or a production system
+         - Helpful for incremental development
+      - Building the application  
+         - Development
+         - Test
+         - QA
+         - Staging
+         - Production
+      - Secure baselines
+         - All applications should use the baseline
+         - Firewall settings, patch levels, os file versions
+         - May require constant updates
+         - Integrity checks to verify production matches baseline
+        
+      - Provisioning and Deprovisioning
+         - Provisioning
+            - Deploy an application
+            - Application Software Security
+            - Network Security
+            - Security scans such as nessus
+         - Scalability
+            - Ability to increase the workload in a given infrastructure
+         - Elasticity
+            - Ability to increase or decrease available resources as the workload changes
+         - Orchestration
+            - Automate the provisiong and deprovisioning of applications
+            - Servers,networks,switches,firewalls,policies
+            - Can move around the world as needed
+            - Security policies are part of orchestration
+         - Deprovisioning
+            - Dismantling and removing an application instance
+            - Security deprovisioning is important
+            - If the application is gone so is the access
+            - Don't leave information out there
 
-     - Automation and Scripting
-        - Plan for change
-        - Continuous monitoring
-        - Configuration validation
-        - Continuous Integration (CI)
-           - Code is constantly written
-           - Basic set of security checks during development
-           - Large-scale security analysis during testing
-        - Continuous Delivery (CD) 
-           - Automate the testing process
-        - Continuous Deployment
-           - Automate the release process
-  
+      - Secure Coding Techniques
+         - A balance between time and quality
+         - Vulnerabilities will eventually be found
+         - Stored procedures
+            - SQL Databases
+            - Client requests can be complex
+            - Stored procedures limit the clients interactions to approved parameters
+         - Obfusacation
+            - Take readable code and turn it into nonsense
+            - Helps prevent the search for vulnerabilities
+         - Code Reuse
+            - Also can copy vulnerabilites
+            - Dead code
+            - All code is an opportunity for a security problem
+         - Input Validation
+            - Validate actual vs expected
+            - Fuzzers will find what you missed
+            - Server side validation
+            - Client side validation
+            - Use both, but at least server side
+         - Memory Management
+            - Never trust user input
+            - Some built-in functions are insecure
+         - Third-party libraries and SDKs
+            - Extend the functionality of a programming language
+            - Extensive testing is required
+            - Balancing act between functionality and security
+         - Data Exposure
+            - How is the application handling the data?
+            - Check all input and output processes for data exposure
+         - Version Control
+            - Track changes of the software releases
+            - Useful for security
+      
+      - Software Diversity
+         - Once you exploit one binary you can exploit them all
+         - Alternative compiler paths would result in a different binary each time it's compiled
+         - This would mean an attacker can't use the same exploit across the network
+
+      - Automation and Scripting
+         - Plan for change
+         - Continuous monitoring
+         - Configuration validation
+         - Continuous Integration (CI)
+            - Code is constantly written
+            - Basic set of security checks during development
+            - Large-scale security analysis during testing
+         - Continuous Delivery (CD) 
+            - Automate the testing process
+         - Continuous Deployment
+            - Automate the release process
+  </details>
   6. "2.4: Authentication and Authorization"
   7. "2.5: Resilience"
   8. "2.6: Embedded Systems"
@@ -744,7 +753,7 @@
            - Anti-virus, IPS, Firewall updates
            - Constant updates all using different methods
            - Check for encryption and integrity checks       
-  
+</details>
   2. 3.2: Host and Application Security
   3. 3.3: Secure Network Designs
   4. 3.4: Wireless Security
