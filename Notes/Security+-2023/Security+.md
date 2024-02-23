@@ -28,7 +28,7 @@
           - Time Management is important
    </details>
 </details>
-<details>
+<details open>
 <summary> Section 1: Attacks, Threats, and Vulnerabilities </summary>
    <details>   
    <summary> "1.1: Social Engineering" </summary>
@@ -265,12 +265,18 @@
           - Downgrade Attack
              - A form of MITM where you degrade the type of encryption between two hosts to a less secure form that can be easier to break such as MD5
    </details>
-   3. "1.3: Application Attacks"
-   
-   4. "1.4: Network Attacks"
-   
-   5. "1.5: Threat Actors and Vectors"
-       - Threat Actors
+   <details open>
+   <summary> "1.3: Application Attacks" </summary>
+      TODO
+   </details>
+   <details open>
+   <summary> "1.4: Network Attacks" </summary>
+      TODO
+   </details>
+   <details>
+   <summary> "1.5: Threat Actors and Vectors" </summary>
+       
+      - Threat Actors
           - An entity responsible for an event that has an impact on the safety of another entity
           - APT
              - Advanced Persistent Threat
@@ -388,9 +394,11 @@
           - Local industry groups
           - Social Media
           - Threat Feeds
-         
-   6. "1.6: Vulnerabilities"
-       - Vulnerability Types
+   </details>
+   <details>
+   <summary> "1.6: Vulnerabilities" </summary>
+       
+      - Vulnerability Types
           - Zero-day attacks
              - Vulnerability that has not been detected or published
              - Attackers keep these yet-to-be-discovered vulns to themselves
@@ -440,9 +448,11 @@
           - Financial loss
           - Reputation Impacts
           - Availability loss
-         
-   7. "1.7: Security Assessments"
-       - Threat Hunting
+   </details>
+   <details>
+   <summary> "1.7: Security Assessments" </summary>
+       
+      - Threat Hunting
           - Find the attacker before they find you
           - Strategies are constantly changing
           - Intelligence fusion
@@ -500,9 +510,11 @@
                 - Connect many tools together
              - Automation
              - Respone   
-         
-   8. "1.8: Penetration Testing"
-       - Penetration Testing
+   </details>
+   <details>
+   <summary> "1.8: Penetration Testing" </summary>
+       
+      - Penetration Testing
           - Pentest
              - Simulate an attack
              - Similar to vuln scanning but trys to actually exploit a vulnerability
@@ -573,12 +585,14 @@
             - Not on a side
             - Manages the interaction between the red and blue teams
             - Picture as a referee for security exercises
+   </details>
 </details>
-<details>
+<details open>
 <summary> Section 2: Architecture and Design </summary>
-   <details>
+   <details open>
    <summary> "2.1: Enterprise Security" </summary>
      
+      TODO
       - Configuration Management
       - Protecting Data
       - Data Loss Prevention
@@ -586,16 +600,17 @@
       - Site Resilience
       - Honeypots and Deception
    </details>
-   <detail>
+   <details open>
    <summary> "2.2: Virtualization and Cloud Computing" </summary>
      
+      TODO
       - Cloud Models
       - Edge and Fog Computing
       - Designing the Cloud
       - Infrastructure as Code
       - Virtualization Security
-   </detail>
-   <detail>
+   </details>
+   <details>
    <summary> "2.3: Secure Application Development" </summary>
       
       - Secure Deployments
@@ -691,15 +706,32 @@
          - Continuous Deployment
             - Automate the release process
   </details>
-  6. "2.4: Authentication and Authorization"
-  7. "2.5: Resilience"
-  8. "2.6: Embedded Systems"
-  9. "2.7: Physical Security Controls"
-  10. "2.8: Cryptographic Concepts"
+  <details open>
+  <summary> "2.4: Authentication and Authorization" </summary>
+     TODO
+  </details>
+  <details open>
+  <summary> "2.5: Resilience" </summary>
+     TODO
+  </details>
+  <details open>
+  <summary> "2.6: Embedded Systems" </summary>
+     TODO
+  </details>
+  <details open>
+  <summary> "2.7: Physical Security Controls" </summary>
+     TODO
+  </details>
+  <details open>
+  <summary> "2.8: Cryptographic Concepts" </summary>
+     TODO
+  </details>
 </details>
 <details open>
 <summary> Section 3: Implementation </summary>
-  1. "3.1: Secure Protocols"
+  <details>
+   <summary> "3.1: Secure Protocols" </summary>
+     
      - Secure Protocols
         - Voice and Video
            - SRTP: Secure Real Time Transport Protocol
@@ -754,9 +786,17 @@
            - Constant updates all using different methods
            - Check for encryption and integrity checks       
 </details>
-  2. 3.2: Host and Application Security
-  3. 3.3: Secure Network Designs
-  4. 3.4: Wireless Security
+<details open>
+<summary> 3.2: Host and Application Security </summary>
+   TODO
+</details>
+<details open>
+<summary> 3.3: Secure Network Designs </summary>
+   TODO
+</details>
+<details>
+<summary> 3.4: Wireless Security </summary>
+      
       - Wireless Cryptography
          - An organization's wireless netowrk can contain confidential information
          - Authenticate the users before granting access
@@ -858,37 +898,49 @@
             - Securing access points
                - Use strong passwords
                - Update to the latest firmware
+               
+   </details>
    <details open>
    <summary> 3.5: Mobile Security </summary>
+      TODO
    </details>
    <details open>
    <summary> 3.6: Cloud Security </summary>
+      TODO
    </details>
    <details open>
    <summary> 3.7: Identity and Account Management </summary>
+      TODO
    </details>
    <details open>
    <summary> 3.8: Authentication and Authorization Services </summary>
+      TODO
    </details>
    <details open>
    <summary> 3.9: Public Key Infrastructure </summary>
+      TODO
    </details>
 </details>
 <summary> Section 4: Operations and Incident Response </summary>
    <details open>
    <summary> 4.1: Security Tools </summary>
+      TODO
    </details>
    <details open>
    <summary> 4.2: Incident Response </summary>
+      TODO
    </details>
    <details open>
    <summary> 4.3: Investigations </summary>
+      TODO
    </details>
    <details open>
-   <summary >4.4: Securing an Environment </summary>
+   <summary> 4.4: Securing an Environment </summary>
+      TODO
    </details>
    <details open>
    <summary> 4.5: Digital Forensics </summary>
+      TODO
    </details>
 </details>
 <summary> Section 5: Governance, Risk, and Compliance </summary>
@@ -921,12 +973,15 @@
    </details>
    <details open>
    <summary> 5.2: Regulations, Standards, and Frameworks </summary>
+      TODO
    </details>
    <details open>
    <summary> 5.3: Organizational Security Policies </summary>
+      TODO
    </details>
    <details open>
    <summary> 5.4: Risk Management </summary>
+      TODO
    </details>
    <details>
    <summary> 5.5: Data Privacy </summary>
