@@ -873,8 +873,10 @@
    <summary> 4.5: Digital Forensics </summary>
    </details>
 </details>
-## Section 5: Governance, Risk, and Compliance
-  1. 5.1: Security Controls 
+<summary> Section 5: Governance, Risk, and Compliance </summary>
+   <details>
+   <summary> 5.1: Security Controls </summary>
+      
       - Prevent security events, minimize the impact and limit the damage
       - Control Categories
          - Managerial Controls
@@ -897,11 +899,20 @@
             - May deter someone from an intrusion
          - Compensating
             - Doesn't prevent an attack, but compensates for the results of the attack
-         - Physical      
-  2. 5.2: Regulations, Standards, and Frameworks
-  3. 5.3: Organizational Security Policies
-  4. 5.4: Risk Management
-  5. 5.5: Data Privacy
+         - Physical     
+   </details>
+   <details open>
+   <summary> 5.2: Regulations, Standards, and Frameworks </summary>
+   </details>
+   <details open>
+   <summary> 5.3: Organizational Security Policies </summary>
+   </details>
+   <details open>
+   <summary> 5.4: Risk Management </summary>
+   </details>
+   <details>
+   <summary> 5.5: Data Privacy </summary>
+      
       - Privacy and Data Breaches
          - Data Lifecycle
             - Creation and Receipt
@@ -972,4 +983,5 @@
             - Responsible for data accuracy, privacy, and security
          - Data protection officer
             - Responsible for the organization's data privacy
+   </details>
 </details>
