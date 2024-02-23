@@ -688,7 +688,7 @@
   9. "2.7: Physical Security Controls"
   10. "2.8: Cryptographic Concepts"
 </details>
-<details>
+<details open>
 <summary> Section 3: Implementation </summary>
   1. "3.1: Secure Protocols"
      - Secure Protocols
@@ -849,13 +849,22 @@
             - Securing access points
                - Use strong passwords
                - Update to the latest firmware
-  5. 3.5: Mobile Security
-  6. 3.6: Cloud Security
-  7. 3.7: Identity and Account Management
-  8. 3.8: Authentication and Authorization Services
-  9. 3.9: Public Key Infrastructure
+   <details open>
+   <summary> 3.5: Mobile Security </summary>
+   </details>
+   <details open>
+   <summary> 3.6: Cloud Security </summary>
+   </details>
+   <details open>
+   <summary> 3.7: Identity and Account Management </summary>
+   </details>
+   <details open>
+   <summary> 3.8: Authentication and Authorization Services </summary>
+   </details>
+   <details open>
+   <summary> 3.9: Public Key Infrastructure </summary>
+   </details>
 </details>
-<details open>
 <summary> Section 4: Operations and Incident Response </summary>
    <details open>
    <summary> 4.1: Security Tools </summary>
