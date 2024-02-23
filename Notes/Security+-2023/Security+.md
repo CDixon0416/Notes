@@ -1,106 +1,111 @@
 # Condensed Notes from ProfessorMesser's Video Series on CompTIA's Security+
 #### Sourced from: https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/
+<details>
+<summary> Section 0: The SY0-601 CompTIA Security+ Exam</summary>
+   <details>
+   <summary> "0.1: Introduction" </summary>
+      
+      - Security+ builds a great foundation
+      - Professional prerequisite
+      - Certifications that aren't vendor-specific
 
-## Section 0: The SY0-601 CompTIA Security+ Exam
-   1. "0.1: Introduction"
-        - Security+ builds a great foundation
-        - Professional prerequisite
-        - Certifications that aren't vendor-specific
+      - About this training course
+          - Bite-Sized Videos
+          - Quality Material with real world examples
+          - Free course, notes and practice exams are paid
 
-        - About this training course
-            - Bite-Sized Videos
-            - Quality Material with real world examples
-            - Free course, notes and practice exams are paid
+      - About the exam
+          - 90 minutes, maximum of 90 questions
+          - Passing Score: 750 on a scale from 100-900
+          - 5 Domains, corresponds to the sections below
+          - Section 1 24%
+          - Section 2 21%
+          - Section 3 25%
+          - Section 4 16%
+          - Section 5 14%
+          - Use Objectives as a final checklist for Exam
+          - Get plenty of sleep, plenty to eat, etc
+          - Time Management is important
+   </details>
+</details>
+<details>
+<summary> Section 1: Attacks, Threats, and Vulnerabilities </summary>
+   <details>   
+   <summary> "1.1: Social Engineering" </summary>
+      
+      - Phishing: Social Engineering with a touch of Spoofing
+      - Often delivered by text, email, etc
+      - Don't be fooled -> Check the URL
+      - Look for obvious errors in the webpage
 
-        - About the exam
-            - 90 minutes, maximum of 90 questions
-            - Passing Score: 750 on a scale from 100-900
-            - 5 Domains, corresponds to the sections below
-            - Section 1 24%
-            - Section 2 21%
-            - Section 3 25%
-            - Section 4 16%
-            - Section 5 14%
-            - Use Objectives as a final checklist for Exam
-            - Get plenty of sleep, plenty to eat, etc
-            - Time Management is important
+      - Tricks and Misdirection
+         - Digital slight of hand
+         - Typosquatting
+         - Pretexting
+            - Lying to get information
+            - Creating false scenarios and time sensitive issues
+      - Pharming
+         - Redirection of legit website to a bogus site
+            - Poisoned DNS or client vuln
+         - Combine Pharming with Phishing
+            - Pharming - Harvest large groups of people
+            - Phising - Collect access credentials
+         - Difficult for anti-malware software to stop
+            - Everything appears legitimate to the user
+      - Vishing - Voice Phishing
+      - Smishing - SMS Phishing
 
-## Section 1: Attacks, Threats, and Vulnerabilities
-   1. "1.1: Social Engineering"
-        - Phishing: Social Engineering with a touch of Spoofing
-            - Often delivered by text, email, etc
-            - Don't be fooled -> Check the URL
-            - Look for obvious errors in the webpage
-
-            - Tricks and Misdirection
-                - Digital slight of hand
-                - Typosquatting
-                - Pretexting
-                    - Lying to get information
-                    - Creating false scenarios and time sensitive issues
-            - Pharming
-                - Redirection of legit website to a bogus site
-                    - Poisoned DNS or client vuln
-                - Combine Pharming with Phishing
-                    - Pharming - Harvest large groups of people
-                    - Phising - Collect access credentials
-                - Difficult for anti-malware software to stop
-                    - Everything appears legitimate to the user
-            - Vishing - Voice Phishing
-            - Smishing - SMS Phishing
-
-            - Reconnaissance
-                - Gather information on the victim
-            - Background information
-                - Lead generation sites
-                - Corporate web site
-                - Social media sites of employees (i.e LinkedIn)
-            - Attacker builds a believable pretext
-                - Where you work
-                - Where you bank
-                - Recent financial transactions
-                - Family and friends
-            - Spear Phising
-                - Targeted phishing with inside information
-                - May include "whaling" or hitting a high level person such as the CEO or CFO
+      - Reconnaissance
+         - Gather information on the victim
+      - Background information
+         - Lead generation sites
+         - Corporate web site
+         - Social media sites of employees (i.e LinkedIn)
+      - Attacker builds a believable pretext
+         - Where you work
+         - Where you bank
+         - Recent financial transactions
+         - Family and friends
+      - Spear Phising
+         - Targeted phishing with inside information
+         - May include "whaling" or hitting a high level person such as the CEO or CFO
         
-        - Impersonation:
-          - Attackers pretend to be someone they aren't 
-          - Before the attack the trap is set, there is an actor and a story
-             - Uses some of the details from their reconnaissance
-             - Can include attacking the victim by masquerading as someone who outranks them
-             - Commonly used to commit identity fraud: i.e. Credit card fraud, Bank Fraud, Loan Fraud, Government benefits
-fraud   
-          - Protection against impersonation
-             - Never volunteer information
-             - Don't disclose personal details
-             - Always verify before revealing info
-             - Verification should be encouraged
+      - Impersonation:
+         - Attackers pretend to be someone they aren't 
+         - Before the attack the trap is set, there is an actor and a story
+            - Uses some of the details from their reconnaissance
+            - Can include attacking the victim by masquerading as someone who outranks them
+            - Commonly used to commit identity fraud: i.e. Credit card fraud, Bank Fraud, Loan Fraud, Government benefits fraud   
+         - Protection against impersonation
+            - Never volunteer information
+            - Don't disclose personal details
+            - Always verify before revealing info
+            - Verification should be encouraged
         
-        - Dumpster Diving:
-           - Important information thrown out with the trash
-           - Prevent attackers from getting useful information by shredding important documents and secure your garbage location
+      - Dumpster Diving:
+         - Important information thrown out with the trash
+         - Prevent attackers from getting useful information by shredding important documents and secure your garbage location
+      
+      - Shoulder Surfing:
+         - You have access to important information
+         - Prevent attackers by using privacy filters and keeping your monitor out of potential lines of sight
         
-        - Shoulder Surfing:
-           - You have access to important information
-           - Prevent attackers by using privacy filters and keeping your monitor out of potential lines of sight
+      - Hoaxes:
+         - A threat that doesn't actually exist
+         - Still often consume lots of resources
+         - Most protection is as simple as ensuring you're spam filter is enabled
+         - When in doubt look online at sites such as hoaxslayer.net and snopes.com to see if this is a common hoax
         
-        - Hoaxes:
-           - A threat that doesn't actually exist
-           - Still often consume lots of resources
-           - Most protection is as simple as ensuring you're spam filter is enabled
-           - When in doubt look online at sites such as hoaxslayer.net and snopes.com to see if this is a common hoax
-        
-        - Watering Hole Attacks:
-           - What if your network was really secure? Bring the victim to you.
-           - Attack the metaphorical watering hole where the target is likely to be and try to compromise them via a third party to indirectly attack their network
-              - Determine which website the victim group uses
-              - Infect one of these third-party sites
-              - Infect all visitors and hope your target is one of them
-           - Prevention
-              - Defense in depth
-              - Firewalls and IPS
-              - Anti-virus/malware signature updates
+      - Watering Hole Attacks:
+         - What if your network was really secure? Bring the victim to you.
+         - Attack the metaphorical watering hole where the target is likely to be and try to compromise them via a third party to indirectly attack their network
+            - Determine which website the victim group uses
+            - Infect one of these third-party sites
+            - Infect all visitors and hope your target is one of them
+         - Prevention
+            - Defense in depth
+            - Firewalls and IPS
+            - Anti-virus/malware signature updates
         
         - Spam:
            - Unsolicited messages
@@ -140,7 +145,7 @@ fraud
               - Urgency
               - Familiarity or Liking
               - Trust
-   
+   </details>
    2. "1.2: Attack Types"
         - Malware
            - Malicious Software
@@ -565,7 +570,7 @@ fraud
             - Not on a side
             - Manages the interaction between the red and blue teams
             - Picture as a referee for security exercises
-            
+</details>
 ## Section 2: Architecture and Design
   1. "2.1: Enterprise Security"
      - Configuration Management
